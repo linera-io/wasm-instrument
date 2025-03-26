@@ -1,6 +1,6 @@
 [package]
 name = "wasm-instrument"
-version = "0.4.0"
+version = "0.4.0-linera.1"
 edition = "2021"
 rust-version = "1.56.1"
 authors = ["Parity Technologies <admin@parity.io>"]
@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 description = "Instrument and transform wasm modules."
 keywords = ["wasm", "webassembly", "blockchain", "gas-metering", "parity"]
 categories = ["wasm", "no-std"]
-repository = "https://github.com/paritytech/wasm-instrument"
+repository = "https://github.com/linera-io/wasm-instrument"
 include = ["src/**/*", "LICENSE-*", "README.md"]
 
 [[bench]]
