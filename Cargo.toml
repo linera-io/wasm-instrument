@@ -43,6 +43,7 @@ wasmi = "0.31"
 default = ["std"]
 std = ["parity-wasm/std"]
 sign_ext = ["parity-wasm/sign_ext"]
+bulk = ["parity-wasm/bulk"]
 
 [lib]
 bench = false
